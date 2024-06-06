@@ -1,0 +1,8 @@
+name: hello-github-actions
+'on': push
+jobs: null
+  first-job:
+  runs-on: windows-latest
+  steps: 
+    -name: step-1
+    '-run': node --version
